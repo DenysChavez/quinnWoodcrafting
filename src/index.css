@@ -1,0 +1,29 @@
+:root {
+  --brown-color: #494231;
+  --brackground-color: #252A27;
+  --gold-color: #E6A666;
+  --gray-color: #6C6C6C;
+  --white-color: #ffff;
+  --black-color: #000000;
+
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Crimson Text", sans-serif;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
