@@ -1,11 +1,9 @@
 import "./Header.css";
-import Navbar from "../Navbar/Navbar"
 
 const Header = () => {
   return (
     <header>
       <div className="wrapper">
-      <Navbar />
         <div className="cta">
           <h1 className="title">Quinn Woodcrafting</h1>
           <p className="headline">

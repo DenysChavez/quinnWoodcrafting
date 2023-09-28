@@ -3,7 +3,8 @@ import { logo_png, search } from "../../assets";
 const Navbar = () => {
   return (
     <nav>
-        <img className="logo" src={logo_png} alt="Logo" />
+      <div className="nav-content">
+      <img className="logo" src={logo_png} alt="Logo" />
         <ul>
           <li className="colorWhite">
             <a href="#">About Us</a>
@@ -28,6 +29,7 @@ const Navbar = () => {
           <img src={search} alt="" />
         </button>
         </div>
+      </div>
     </nav>
   );
 };

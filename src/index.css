@@ -17,10 +17,11 @@
 body {
   margin: 0;
   font-family: "Crimson Text", sans-serif;
+  background-color: var(--brackground-color);
 }
 
 .wrapper {
-  max-width: 1519.19px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 

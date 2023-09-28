@@ -1,7 +1,8 @@
-import {Header, Categories, Footer, Gallery, NewProducts, Testimonials} from './components'
+import {Header, Navbar, Categories, Footer, Gallery, NewProducts, Testimonials} from './components'
 const App = () => {
   return (
     <>
+      <Navbar />
       <Header />
       <Testimonials />
       <NewProducts />

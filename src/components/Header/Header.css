@@ -1,5 +1,5 @@
 header {
-  min-height: 100vh;
+  max-height: 500px;
   background-color: var(--white-color);
   background-size: cover;
   background-position: center;
@@ -15,7 +15,7 @@ header .wrapper {
 header .cta {
   position: absolute;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 120px;
 
 }
 

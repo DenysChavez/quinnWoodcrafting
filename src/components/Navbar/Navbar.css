@@ -1,13 +1,19 @@
 nav {
-  position: fixed;
   display: flex;
-  background-color: var(--brackground-color);
+  justify-content: center;
+  position: fixed;
+  top: 0;
   width: 100%;
-  height: 90px;
-  padding: 3px 187px 4.668px 188px;
-  justify-content: space-between;
-  align-items: center;
   z-index: 300;
+  background-color: var(--brackground-color);
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1024px;
 }
 
 .logo {
@@ -38,7 +44,7 @@ nav ul li a {
 }
 
 .search {
-    margin-left: -664px;
+    margin-left: -170px;
     display: flex;
     align-items: center;
     padding-right: 0;
