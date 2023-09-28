@@ -20,10 +20,12 @@ body {
 }
 
 .wrapper {
-  max-width: 1024px;
+  max-width: 1519.19px;
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
+a, a:focus, a:active {
+  color: inherit; /* or any color you want the link text to always have */
+  text-decoration: none; /* this removes the underline from links */
+  outline: none; /* this removes the outline from links when they are focused or active */
 }
