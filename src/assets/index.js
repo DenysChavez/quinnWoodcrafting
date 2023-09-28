@@ -12,9 +12,9 @@ import star from './Star.svg'
 import starGold from './Star_gold.svg'
 import line from './Line_1.svg'
 import search from "./search.svg"
+import testimonial_background from './testmonial_background.svg'
 
 
-
-export { ellipse, etsy, facebook, image1, image2, image3, instagram, lines, logo_svg, star, starGold, line, logo_png, search }
+export { ellipse, etsy, facebook, image1, image2, image3, instagram, lines, logo_svg, star, starGold, line, logo_png, search, testimonial_background }
 
 
