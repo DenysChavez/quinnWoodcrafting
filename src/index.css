@@ -16,17 +16,20 @@
 
 body {
   margin: 0;
-  font-family: "Crimson Text", sans-serif;
+  font-family: "Crimson Text", "Times New Roman", serif;
   background-color: var(--brackground-color);
+  font-size: 100%;
 }
 
-.wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
+#root {
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(2rem, 1fr);
 }
+
 
 a, a:focus, a:active {
   color: inherit; /* or any color you want the link text to always have */
   text-decoration: none; /* this removes the underline from links */
   outline: none; /* this removes the outline from links when they are focused or active */
 }
+

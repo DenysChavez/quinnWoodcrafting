@@ -1,5 +1,6 @@
-import { testimonial_background, ellipse, starGold, lines } from "../../assets";
+import { testimonial_background, ellipse } from "../../assets";
 import "./Testimonials.css";
+import Review from "../Review/Review";
 
 const Testimonials = () => {
   return (
@@ -11,37 +12,13 @@ const Testimonials = () => {
         </div>
         <ul className="list">
           <li>
-            <p className="testi-title">Title</p>
-            <div className="stars">
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-            </div>
-            <p className="testi-review">Review</p>
+            <Review />
           </li>
           <li>
-            <p className="testi-title">Title</p>
-            <div className="stars">
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-            </div>
-            <p className="testi-review">Review</p>
+            <Review />
           </li>
           <li>
-            <p className="testi-title">Title</p>
-            <div className="stars">
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-              <img src={starGold} alt="" />
-            </div>
-            <p className="testi-review">Review</p>
+            <Review />
           </li>
         </ul>
       </div>
