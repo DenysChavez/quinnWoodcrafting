@@ -1,0 +1,41 @@
+.hero {
+    background: linear-gradient(to bottom, var(--white-color) 60%,var(--brackground-color) 50%);
+    margin: 0;
+}
+
+.hero h1 {
+    margin: 0;
+    padding-top: 6rem;
+    font-size: 3rem;
+    font-weight: 0;
+}
+
+.headline {
+    font-size: 1.5rem;
+}
+
+h1, .headline{
+    text-align: center;
+}
+
+.image-hero {
+    padding-top: 2rem;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    width: 25%;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.stars img {
+    padding: 1rem;
+}

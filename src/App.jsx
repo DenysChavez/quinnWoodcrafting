@@ -2,13 +2,12 @@ import {Header, Navbar, Categories, Footer, Gallery, NewProducts, Testimonials} 
 const App = () => {
   return (
     <>
-      <Navbar />
-      {/* <Header />
-      <Testimonials />
+      <Header />
+      {/* <Testimonials />
       <NewProducts />
       <Categories />
       <Gallery />
-      <Footer /> */}
+      <Footer /> */} 
     </>
   )
 }

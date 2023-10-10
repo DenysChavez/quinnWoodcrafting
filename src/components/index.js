@@ -5,5 +5,6 @@ import Gallery from "./Gallery/Gallery";
 import Navbar from "./Navbar/Navbar";
 import NewProducts from "./NewProducts/NewProducts";
 import Testimonials from "./Testimonials/Testimonials";
+import Hero from "./Hero/Hero"
 
-export {Header, Categories, Footer, Gallery, Navbar, NewProducts, Testimonials}
+export {Header, Categories, Footer, Gallery, Navbar, NewProducts, Testimonials, Hero}

@@ -21,11 +21,6 @@ body {
   font-size: 100%;
 }
 
-#root {
-  display: grid;
-  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(2rem, 1fr);
-}
-
 
 a, a:focus, a:active {
   color: inherit; /* or any color you want the link text to always have */

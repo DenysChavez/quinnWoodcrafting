@@ -1,4 +1,8 @@
 header {
+  grid-column: 2/3;
+}
+
+/* header {
   max-height: 389px;
   background-color: var(--white-color);
   background-size: cover;
@@ -47,4 +51,4 @@ header .cta .headline {
   position: relative;
   text-align: center;
   padding-right: 10px;
-}
+} */
