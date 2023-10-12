@@ -2,7 +2,12 @@ import "./NewProducts.css"
 
 const NewProducts = () => {
   return (
-    <div>NewProducts</div>
+    <div className="latest-products">
+      <h1>LATEST PRODUCTS</h1>
+      <div className="products">
+        
+      </div>
+    </div>
   )
 }
 

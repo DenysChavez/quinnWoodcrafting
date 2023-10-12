@@ -5,10 +5,10 @@ const App = ({ reviews }) => {
     <>
       <Header />
       <Testimonials reviews={reviews} />
-      {/* <NewProducts />
-      <Categories />
-      <Gallery />
-      <Footer />  */}
+      <NewProducts />
+      {/* <Categories /> */}
+      {/* <Gallery /> */}
+      {/* <Footer />  */}
     </>
   )
 }
