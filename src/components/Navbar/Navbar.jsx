@@ -3,7 +3,7 @@ import { logo_png, search } from "../../assets";
 const Navbar = () => {
   return (
     <nav>
-      <div class="navbar">
+      <div className="navbar">
         <img className="logo" src={logo_png} alt="Logo" />
         <ul className="menu">
           <li className="colorWhite">

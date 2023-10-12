@@ -1,13 +1,14 @@
 import {Header, Navbar, Categories, Footer, Gallery, NewProducts, Testimonials} from './components'
-const App = () => {
+const App = ({ reviews }) => {
+  
   return (
     <>
       <Header />
-      {/* <Testimonials />
-      <NewProducts />
+      <Testimonials reviews={reviews} />
+      {/* <NewProducts />
       <Categories />
       <Gallery />
-      <Footer /> */} 
+      <Footer />  */}
     </>
   )
 }
