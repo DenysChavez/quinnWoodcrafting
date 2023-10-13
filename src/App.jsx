@@ -1,4 +1,4 @@
-import {Header, Navbar, Categories, Footer, Gallery, NewProducts, Testimonials} from './components'
+import {Header, Categories, Footer, Gallery, NewProducts, Testimonials} from './components'
 const App = ({ reviews, products }) => {
   
   return (
@@ -8,7 +8,7 @@ const App = ({ reviews, products }) => {
       <NewProducts products={products} />
       <Categories />
       <Gallery />
-      {/* <Footer />  */}
+      <Footer /> 
     </>
   )
 }
