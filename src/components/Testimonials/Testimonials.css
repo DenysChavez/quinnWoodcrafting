@@ -1,15 +1,3 @@
-/* #testimonials {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.reviews {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3rem;
-  justify-content: center;
-} */
-
 #testimonials {
   display: flex;
   flex-direction: column;
@@ -20,64 +8,35 @@
   display: flex;
   max-width: 1224px;
   overflow-x: auto;
-  /* overflow-y: hidden;     No vertical scrolling */
 }
 
 .reviews-grid-inner {
   display: grid;
-  grid-auto-flow: column;  /* Make items flow horizontally */
-  gap: 20px;               /* Gap between each product */
-  padding: 0 2rem;        /* Spacing on the sides */
-}
-/* .reviews {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-} */
-
-/* #testimonials ul li {
-  border-bottom: 2px solid var(--brown-color);
-  position: relative;
-  list-style: none;
-  width: 400px;
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+  grid-auto-flow: column;  
+  gap: 20px;               
+  padding: 5px 2rem;        
 }
 
-#testimonials ul li::before,
-#testimonials ul li::after {
-  content: "";
-  position: absolute;
-  top: 30%;
-  bottom: 0; 
-  width: 2px;
-  background-color: var(--brown-color);
+/* The scrollbar itself */
+.reviews-list::-webkit-scrollbar {
+  width: 10px;  /* Width of the vertical scrollbar */
+  height: 10px; /* Height for horizontal scrollbars if needed */
+
 }
 
-#testimonials ul li:before {
-  left: 0;
+/* The track of the scrollbar (the background) */
+.reviews-list::-webkit-scrollbar-track {
+  background: var(--background-color) ;
+  border-radius: 10px;
 }
 
-#testimonials ul li:after {
-  right: 0;
+/* The handle of the scrollbar (the moving part) */
+.reviews-list::-webkit-scrollbar-thumb {
+  background: var(--gray-darker-color); 
 }
 
-
-.testi-image {
-  position: relative;
+/* On hover of the handle */
+.reviews-list::-webkit-scrollbar-thumb:hover {
+  background: var(--gary-over-color);
 }
-
-.picture {
-  width: 100%;
-  position: absolute;
-  top: -50px;
-  z-index: 2;
-}
-
-.ellipse {
-  width: 100%;
-  position: absolute;
-  z-index: 1;
-}
- */
-
-
