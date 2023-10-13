@@ -7,7 +7,7 @@ const App = ({ reviews, products }) => {
       <Testimonials reviews={reviews} />
       <NewProducts products={products} />
       <Categories />
-      {/* <Gallery /> */}
+      <Gallery />
       {/* <Footer />  */}
     </>
   )
