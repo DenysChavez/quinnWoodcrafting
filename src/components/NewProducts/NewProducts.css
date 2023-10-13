@@ -1,3 +1,68 @@
-.latest-products {
+.latest-products h1 {
     color: var(--white-color);
 }
+
+.latest-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-list {
+    display: flex;
+    max-width: 1024px;
+    overflow-x: auto;        /* Horizontal scrolling */
+    overflow-y: hidden;     /* No vertical scrolling */
+}
+
+.products-grid-inner {
+    display: grid;
+    grid-auto-flow: column;  /* Make items flow horizontally */
+    gap: 20px;               /* Gap between each product */
+    padding: 0 2rem;        /* Spacing on the sides */
+    white-space: nowrap;     /* Prevents wrapping of content */
+}
+
+/* .products-list {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(2rem, 1fr);
+    overflow: hidden;
+    max-height: 408px;
+    overflow: scroll;
+}
+
+.products-list * {
+    grid-column: 2/3;
+} */
+/* .latest-products .product-description {
+    color: var(--gray-color);
+}
+
+.product-price {
+    color: var(--gold-color);
+}
+
+.latest-products {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(2rem, 1fr);
+}
+
+
+
+.products-list {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(2rem, 1fr);
+}
+
+.lil-nav {
+    grid-column: 2/3;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+.lil-nav img {
+    display: block;
+    max-width: 100%;
+    padding-right: 10px;
+} */

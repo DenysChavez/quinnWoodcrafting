@@ -1,0 +1,10 @@
+.product h2 {
+    color: var(--white-color);
+}
+
+.product-description {
+    color: var(--gray-color);
+}
+.product-price {
+    color: var(--gold-color);
+}

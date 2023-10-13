@@ -5,7 +5,7 @@ const Testimonials = ({ reviews }) => {
   return (
     <section id="testimonials">
       <div className="reviews">
-        {reviews.map(review => <Review review={review}/>)}
+        {reviews.map(review => <Review review={review} key={review.id} />)}
       </div>
     </section>
   );
