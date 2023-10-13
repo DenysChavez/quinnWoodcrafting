@@ -4,8 +4,12 @@ import Review from "../Review/Review";
 const Testimonials = ({ reviews }) => {
   return (
     <section id="testimonials">
-      <div className="reviews">
-        {reviews.map(review => <Review review={review} key={review.id} />)}
+      <div className="reviews-list">
+        <div className="reviews-grid-inner">
+          {reviews.map((review) => (
+            <Review review={review} key={review.id} />
+          ))}
+        </div>
       </div>
     </section>
   );

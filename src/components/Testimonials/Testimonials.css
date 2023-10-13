@@ -1,5 +1,5 @@
-#testimonials {
-  width: 70%;
+/* #testimonials {
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -8,8 +8,27 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
   justify-content: center;
+} */
+
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.reviews-list {
+  display: flex;
+  max-width: 1224px;
+  overflow-x: auto;
+  /* overflow-y: hidden;     No vertical scrolling */
+}
+
+.reviews-grid-inner {
+  display: grid;
+  grid-auto-flow: column;  /* Make items flow horizontally */
+  gap: 20px;               /* Gap between each product */
+  padding: 0 2rem;        /* Spacing on the sides */
+}
 /* .reviews {
   display: flex;
   justify-content: space-between;
