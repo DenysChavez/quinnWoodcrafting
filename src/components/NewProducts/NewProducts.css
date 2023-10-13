@@ -19,7 +19,6 @@
     display: grid;
     grid-auto-flow: column;  /* Make items flow horizontally */
     gap: 20px;               /* Gap between each product */
-    padding: 0 2rem;        /* Spacing on the sides */
     white-space: nowrap;     /* Prevents wrapping of content */
 }
 
