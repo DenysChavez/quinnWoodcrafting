@@ -23,6 +23,29 @@
     white-space: nowrap;     /* Prevents wrapping of content */
 }
 
+/* The scrollbar itself */
+.products-list::-webkit-scrollbar {
+    width: 10px;  /* Width of the vertical scrollbar */
+    height: 10px; /* Height for horizontal scrollbars if needed */
+
+}
+
+/* The track of the scrollbar (the background) */
+.products-list::-webkit-scrollbar-track {
+    background: var(--background-color) ;
+    border-radius: 10px;
+}
+
+/* The handle of the scrollbar (the moving part) */
+.products-list::-webkit-scrollbar-thumb {
+    background: var(--gray-darker-color); 
+}
+
+/* On hover of the handle */
+.products-list::-webkit-scrollbar-thumb:hover {
+    background: var(--gary-over-color);
+}
+
 /* .products-list {
     display: grid;
     grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(2rem, 1fr);
