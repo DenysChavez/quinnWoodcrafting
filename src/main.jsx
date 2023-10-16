@@ -33,6 +33,26 @@ const reviews = [
     user_name: "Dan y Micho Bonito",
     review: "sdfjhsadfsadfsdjkalfhjksdalfhjksadlryireluhjsdfksljhafjksd",
     date: "10/28/2015"
+  },
+  {
+    id: 4,
+    product_id: 285,
+    product_name: "Plant Holder",
+    rate: 5,
+    user_id: 756,
+    user_name: "Dan y Micho Bonito",
+    review: "sdfjhsadfsadfsdjkalfhjksdalfhjksadlryireluhjsdfksljhafjksd",
+    date: "10/28/2015"
+  },
+  {
+    id: 5,
+    product_id: 285,
+    product_name: "Plant Holder",
+    rate: 5,
+    user_id: 756,
+    user_name: "Dan y Micho Bonito",
+    review: "sdfjhsadfsadfsdjkalfhjksdalfhjksadlryireluhjsdfksljhafjksd",
+    date: "10/28/2015"
   }
 ]
 
