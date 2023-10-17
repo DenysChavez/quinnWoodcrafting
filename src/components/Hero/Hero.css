@@ -24,10 +24,14 @@ h1,
 }
 
 .image-hero {
-  padding-top: 2rem;
-  max-width: 100%;
+  margin-top: 2rem;
+  width: 100%;
   display: block;
-  height: auto;
+  height: 450px;
+  background-image: url('../../assets/wood_hammer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 hr {
@@ -78,6 +82,6 @@ hr {
       } 
 
       .image-hero {
-        padding-top: 1rem;
+        margin-top: 1rem;
       }
     }

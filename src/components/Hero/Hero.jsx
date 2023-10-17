@@ -1,5 +1,5 @@
 import React from "react";
-import { testimonial_background, star } from "../../assets";
+import { wood_hammer, star } from "../../assets";
 
 import "./Hero.css";
 
@@ -21,7 +21,8 @@ const Hero = () => {
           <img src={star} alt="" />
           <img src={star} alt="" />
         </div>
-        <img className="image-hero" src={testimonial_background} alt="" />
+        <div className="image-hero">
+        </div>
       </div>
     </div>
   );
