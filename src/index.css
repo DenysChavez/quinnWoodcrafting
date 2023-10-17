@@ -25,10 +25,16 @@ body {
 }
 
 .wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(
+      2rem,
+      1fr
+    );
 }
 
+.wrapper-inner {
+  grid-column: 2 /3;
+}
 
 a, a:focus, a:active {
   color: inherit; /* or any color you want the link text to always have */

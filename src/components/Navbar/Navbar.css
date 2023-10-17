@@ -1,13 +1,4 @@
-nav {
-  display: grid;
-  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 1024px) minmax(
-      2rem,
-      1fr
-    );
-}
-
 .navbar {
-  grid-column: 2 /3;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   font-size: 1.5rem;
