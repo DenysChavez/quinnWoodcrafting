@@ -44,6 +44,7 @@ hr {
   padding: 1rem;
 }
 
+/* Media Query for Tablets */
 @media (max-width: 1040px) {
   .hero h1 {
     padding-top: 2.5rem;
@@ -56,5 +57,27 @@ hr {
 
 }
 
+/* Media Query for Mobile */
 @media (max-width: 720px) {
-}
+    .hero h1 {
+        padding-top: 1rem;
+        font-size: 2rem;
+      }
+
+      .headline {
+        font-size: 1rem;
+      }
+
+      hr {
+        width: 300px;
+      } 
+
+      .stars img {
+        padding-top: 0;
+        width: 40px;
+      }
+
+      .image-hero {
+        padding-top: 0;
+      }
+    }
