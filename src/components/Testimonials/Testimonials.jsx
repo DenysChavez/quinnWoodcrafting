@@ -3,9 +3,9 @@ import Review from "../Review/Review";
 
 const Testimonials = ({ reviews }) => {
   return (
-    <section id="testimonials">
-      <div className="reviews-list">
-        <div className="reviews-grid-inner">
+    <section id="testimonials" className="wrapper">
+      <div className="wrapper-inner">
+        <div className="reviews-list">
           {reviews.map((review) => (
             <Review review={review} key={review.id} />
           ))}

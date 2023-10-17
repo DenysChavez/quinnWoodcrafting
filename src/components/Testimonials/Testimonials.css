@@ -1,16 +1,53 @@
-#testimonials {
+.reviews-list {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+}
+
+/* Media Query for Tablets */
+/* @media (max-width: 1040px) { 
+  .reviews-list {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(1fr));
+  }
+
+} */
+
+/* Media Query for Mobile */
+@media (max-width: 720px) {
+  .reviews-list {
+    display: flex;
+    /* width: 50%; */
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+} 
+
+
+/* #testimonials {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.reviews-list {
+/* .reviews-list {
   display: flex;
   max-width: 1024px;
   overflow-x: auto;
-}
+} */
 
-.reviews-grid-inner {
+/* .reviews-list {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+  grid-auto-flow: column;  
+  gap: 20px;  
+  padding-top: 5px;
+  padding-bottom: 5px; 
+} */
+
+/* .reviews-grid-inner {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
   grid-auto-flow: column;  
@@ -18,7 +55,7 @@
   padding-top: 5px;
   padding-bottom: 5px;             
 
-}
+} */
 
 /* The scrollbar itself */
 .reviews-list::-webkit-scrollbar {

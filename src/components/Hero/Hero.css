@@ -48,6 +48,7 @@ hr {
 @media (max-width: 1040px) {
   .hero h1 {
     padding-top: 2.5rem;
+    word-wrap: break-word;
   }
 
   .stars img {
@@ -59,25 +60,24 @@ hr {
 
 /* Media Query for Mobile */
 @media (max-width: 720px) {
+    .hero {
+        background: linear-gradient(
+          to bottom,
+          var(--white-color) 80%,
+          var(--brackground-color) 50%
+        );
+        margin: 0;
+      }
+
     .hero h1 {
         padding-top: 1rem;
-        font-size: 2rem;
+        word-wrap: break-word;
       }
-
-      .headline {
-        font-size: 1rem;
-      }
-
       hr {
         width: 300px;
       } 
 
-      .stars img {
-        padding-top: 0;
-        width: 40px;
-      }
-
       .image-hero {
-        padding-top: 0;
+        padding-top: 1rem;
       }
     }

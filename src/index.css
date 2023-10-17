@@ -1,14 +1,13 @@
 :root {
   --brown-color: #494231;
-  --brackground-color: #252A27;
+  --brackground-color: #252a27;
   --footer-background: #3e3328;
-  --gold-color: #E6A666;
+  --gold-color: #e6a666;
   --gray-color: #a2a2a2;
   --gray-darker-color: #4f4f4f;
   --gary-over-color: #3a3a3a;
   --white-color: #ffff;
   --black-color: #000000;
-
 }
 
 *,
@@ -30,15 +29,17 @@ body {
       2rem,
       1fr
     );
+  overflow: hidden;
 }
 
 .wrapper-inner {
   grid-column: 2 /3;
 }
 
-a, a:focus, a:active {
+a,
+a:focus,
+a:active {
   color: inherit; /* or any color you want the link text to always have */
   text-decoration: none; /* this removes the underline from links */
   outline: none; /* this removes the outline from links when they are focused or active */
 }
-

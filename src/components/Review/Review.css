@@ -55,3 +55,32 @@ background-position:
   font-size: 1.2rem;
   text-align: center;
 }
+
+/* Media Query for Tablets */
+/* @media (max-width: 1040px) { 
+
+  .review-block  {
+    padding-top: 10px;
+  }
+
+  .product-name {
+    font-size: 1rem;
+  }
+  .stars-rate {
+    padding-top: 0;
+  }
+  .stars-rate img {
+    padding: .1rem;
+  }
+
+  .review-text{ 
+  font-size: 1rem;
+
+  }
+
+} */
+
+/* Media Query for Mobile */
+/* @media (max-width: 720px) {
+
+} */
