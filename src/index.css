@@ -24,6 +24,11 @@ body {
   font-size: 100%;
 }
 
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 
 a, a:focus, a:active {
   color: inherit; /* or any color you want the link text to always have */
