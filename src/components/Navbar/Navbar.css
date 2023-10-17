@@ -14,6 +14,10 @@ nav {
   background-color: val(--brackground-color);
 }
 
+.nav-list-icon {
+  display: none;
+}
+
 .logo {
   width: 125px;
   height: 82.332px;
@@ -100,34 +104,39 @@ nav {
 }
 
 /* Media Query for Mobile */
-/* @media (max-width: 720px) {
+@media (max-width: 720px) {
   .navbar {
-    grid-template-columns: 1fr;
-    text-align: center;
-    font-size: 0.8rem;
+    grid-template-columns: repeat(6, 1fr);
+    height: 80px;
   }
 
   .logo {
-    grid-column: 1 / -1;
-    margin: 10px auto;
+    grid-column: 5 / 7;
+    width: 115px;
+    height: 70px;
+    margin: auto;
+  }
+
+  .nav-list-icon {
+    display: block;
+    grid-column: 1/2;
+    margin: auto;
+  }
+
+  .nav-list-icon img {
+    width: 25px;
+  }
+
+  .nav-list-icon:hover {
+    cursor: pointer;
   }
 
   .nav-list {
-    grid-column: 1 / -1;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
+    display: none;
   }
 
   .search {
-    grid-column: 1 / -1;
-  }
+    display: none;
 
-  .search input,
-  .search button {
-    width: 80%;
-    margin: 5px auto;
-    height: 30%;
   }
-} */
+} 

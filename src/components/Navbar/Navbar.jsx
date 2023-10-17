@@ -1,9 +1,12 @@
 import "./Navbar.css";
-import { logo_png, search } from "../../assets";
+import { logo_png, search, nav_icon } from "../../assets";
 const Navbar = () => {
   return (
     <nav>
       <div className="navbar">
+      <div className="nav-list-icon">
+          <img src={nav_icon} alt="" />
+        </div>
         <img className="logo" src={logo_png} alt="Logo" />
         <ul className="nav-list">
           <li className="colorWhite">
