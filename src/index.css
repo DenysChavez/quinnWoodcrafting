@@ -29,7 +29,6 @@ body {
       2rem,
       1fr
     );
-  overflow: hidden;
 }
 
 .wrapper-inner {
