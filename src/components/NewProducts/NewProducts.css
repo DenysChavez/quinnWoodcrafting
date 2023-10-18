@@ -9,19 +9,18 @@
     margin-top: 20px;
 }
 
-.products-list {
+ .products-list {
     display: flex;
-    max-width: 1024px;
-    overflow-x: auto;        /* Horizontal scrolling */
-    overflow-y: hidden;     /* No vertical scrolling */
+    gap: 20px;
+    justify-content: space-between;
 }
 
-.products-grid-inner {
+/* .products-grid-inner {
     display: grid;
-    grid-auto-flow: column;  /* Make items flow horizontally */
-    gap: 20px;               /* Gap between each product */
-    white-space: nowrap;     /* Prevents wrapping of content */
-}
+    grid-auto-flow: column;  
+    gap: 20px;               
+    white-space: nowrap;    
+}  */
 
 /* The scrollbar itself */
 .products-list::-webkit-scrollbar {

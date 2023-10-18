@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
+
 const reviews = [
   {
     id: 1,
@@ -59,52 +60,52 @@ const reviews = [
 const products = [
   {
     id: 244354,
-    img: "https://m.media-amazon.com/images/I/91iLajROOwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-    description: "kjhfkjahsdfkjsad",
-    price: 9.99,
-    name: "Cutting Board",
+    img: "/src/assets/cheese_board.jpg",
+    description: "Made from a single piece of sustainably-sourced olive wood",
+    price: "$ 99.99",
+    name: "Olive Wood Cheese Board",
     link: "#"
   },
   {
     id: 3232454,
-    img: "https://m.media-amazon.com/images/I/91g8Ei8ouAL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
-    description: "kjhfkjahsdfkjsad",
-    price: 9.99,
-    name: "Cheese Board",
+    img: "/src/assets/wiskey_smoker.jpg",
+    description: "Elevate your whiskey experience with our sophisticated Whiskey Smoker.",
+    price: "$ 80.99",
+    name: "Wiskey Smoker",
     link: "#"
   },
   {
     id: 3252454,
-    img: "https://m.media-amazon.com/images/I/81nNtyhebRL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-    description: "kjhfkjahsdfkjsad",
-    price: 9.99,
-    name: "Micho's board",
+    img: "/src/assets/hammer_wood_product.jpg",
+    description: "Hand-carved from select hardwoods",
+    price: "$ 80.99",
+    name: "Wood Hammer",
     link: "#"
   },
-  {
-    id: 3243465478,
-    img: "https://m.media-amazon.com/images/I/81nNtyhebRL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-    name: "Micho's board",
-    description: "kjhfkjahsdfkjsad",
-    price: 9.99,
-    link: "#"
-  },
-  {
-    id: 322054,
-    img: "https://m.media-amazon.com/images/I/81nNtyhebRL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-    description: "kjhfkjahsdfkjsad",
-    price: 9.99,
-    name: "Micho's board",
-    link: "#"
-  },
-  {
-    id: 24433154,
-    img: "https://m.media-amazon.com/images/I/91iLajROOwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
-    name: "Cutting Board",
-    description: "kjhfkjahsdfkjsad",
-    price: 9.99,
-    link: "#"
-  },
+  // {
+  //   id: 3243465478,
+  //   img: "https://m.media-amazon.com/images/I/81nNtyhebRL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+  //   name: "Micho's board",
+  //   description: "kjhfkjahsdfkjsad",
+  //   price: 9.99,
+  //   link: "#"
+  // },
+  // {
+  //   id: 322054,
+  //   img: "https://m.media-amazon.com/images/I/81nNtyhebRL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+  //   description: "kjhfkjahsdfkjsad",
+  //   price: 9.99,
+  //   name: "Micho's board",
+  //   link: "#"
+  // },
+  // {
+  //   id: 24433154,
+  //   img: "https://m.media-amazon.com/images/I/91iLajROOwL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+  //   name: "Cutting Board",
+  //   description: "kjhfkjahsdfkjsad",
+  //   price: 9.99,
+  //   link: "#"
+  // },
 
 
 ]

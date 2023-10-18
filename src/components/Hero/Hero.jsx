@@ -1,5 +1,5 @@
 import React from "react";
-import { wood_hammer, star } from "../../assets";
+import { star } from "../../assets";
 
 import "./Hero.css";
 
