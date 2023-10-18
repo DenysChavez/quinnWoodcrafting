@@ -1,19 +1,16 @@
-.latest-products h1 {
+.latest-product-title {
     color: var(--white-color);
 }
 
 .latest-products {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
     align-items: center;
     margin-top: 20px;
 }
 
- .products-list {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-}
 
 
 
