@@ -22,16 +22,6 @@ const Navbar = () => {
             <a href="#">FAQs</a>
           </li>
         </ul>
-        <div className="search">
-          <input
-            type="text"
-            placeholder="Search for products"
-            className="search-input"
-          />
-          <button className="search-button">
-            <img src={search} alt="" />
-          </button>
-        </div>
       </div>
     </nav>
   );

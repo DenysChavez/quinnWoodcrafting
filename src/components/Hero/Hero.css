@@ -4,6 +4,7 @@
     var(--white-color) 60%,
     var(--brackground-color) 50%
   );
+  padding-top: 50px;
   margin: 0;
 }
 
@@ -71,6 +72,8 @@ hr {
           var(--brackground-color) 50%
         );
         margin: 0;
+  padding-top: 90px;
+
       }
 
     .hero h1 {
