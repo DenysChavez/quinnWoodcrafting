@@ -19,7 +19,7 @@
 
 .card {
     scroll-snap-align: start;
-    
+
 }
 
 /* .latest-products {
@@ -59,6 +59,8 @@
 /* .products-list::-webkit-scrollbar-thumb:hover {
     background: var(--gary-over-color);
 } */
+
+/* Media Query for Mobile */
 @media (max-width: 720px) { 
     .contenido {
         width: 450px;
