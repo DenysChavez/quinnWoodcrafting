@@ -2,17 +2,34 @@
     color: var(--white-color);
 }
 
-.latest-products {
+.carrousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    scroll-snap-align: start;
+    
+}
+
+/* .latest-products {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 20px;
     align-items: center;
     margin-top: 20px;
-}
-
-
-
+} */
 
 /* .products-grid-inner {
     display: grid;
@@ -22,25 +39,28 @@
 }  */
 
 /* The scrollbar itself */
-.products-list::-webkit-scrollbar {
-    width: 10px;  /* Width of the vertical scrollbar */
-    height: 10px; /* Height for horizontal scrollbars if needed */
-
-}
+/* .products-list::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+} */
 
 /* The track of the scrollbar (the background) */
-.products-list::-webkit-scrollbar-track {
+/* .products-list::-webkit-scrollbar-track {
     background: var(--background-color) ;
     border-radius: 10px;
-}
+} */
 
 /* The handle of the scrollbar (the moving part) */
-.products-list::-webkit-scrollbar-thumb {
+/* .products-list::-webkit-scrollbar-thumb {
     background: var(--gray-darker-color); 
-}
+} */
 
 /* On hover of the handle */
-.products-list::-webkit-scrollbar-thumb:hover {
+/* .products-list::-webkit-scrollbar-thumb:hover {
     background: var(--gary-over-color);
+} */
+@media (max-width: 720px) { 
+    .contenido {
+        width: 450px;
+    }
 }
-

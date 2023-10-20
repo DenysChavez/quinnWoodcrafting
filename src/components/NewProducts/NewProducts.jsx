@@ -9,11 +9,11 @@ const NewProducts = ({ products }) => {
 
   return (
     <div className="wrapper">
-      <div className="wrapper-inner">
-        <h1 className="latest-product-title">LATEST PRODUCTS</h1>
-        <div className="latest-products">
+      <h1 className="latest-product-title wrapper-inner">LATEST PRODUCTS</h1>
+      <div className="wrapper-inner contenido">
+        <div className="carrousel">
           {products.map((product) => (
-            <Product product={product} key={product.id} />
+            <Product className="card" product={product} key={product.id} />
           ))}
         </div>
       </div>
