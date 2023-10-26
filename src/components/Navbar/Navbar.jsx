@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { logo_png, search, nav_icon } from "../../assets";
+import { logo_png, nav_icon } from "../../assets";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -11,13 +11,13 @@ const NavLinks = () => {
           <Link to="/about">About Us</Link>
         </li>
         <li className="colorGold">
-          <Link to="/producst">Producst</Link>
+          <Link to="/products">Products</Link>
         </li>
         <li className="colorWhite">
-          <Link to="events">Events</Link>
+          <Link to="/events">Events</Link>
         </li>
         <li className="colorGold">
-          <Link to="faqs">FAQs</Link>
+          <Link to="/faqs">FAQs</Link>
         </li>
       </ul>
     </>
@@ -28,7 +28,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
-    console.log("Hola Micho");
     setIsOpen(!isOpen);
   };
 
