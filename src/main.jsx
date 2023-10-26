@@ -1,8 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import { BrowserRouter } from "react-router-dom";
 
 const reviews = [
   {
@@ -13,7 +13,7 @@ const reviews = [
     user_id: 7856,
     user_name: "Micho Bonito",
     review: "sdfjhsdjkalfhjksdalfhjksadlryireluhjsdfksljhafjksd",
-    date: "08/05/1996"
+    date: "08/05/1996",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const reviews = [
     user_id: 75856,
     user_name: "Dan Bonito",
     review: "sdfjhsdjsdfsadfkalfhjksdalfhjksadlryireluhjsdfksljhafjksd",
-    date: "09/10/1996"
+    date: "09/10/1996",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const reviews = [
     user_id: 756,
     user_name: "Dan y Micho Bonito",
     review: "sdfjhsadfsadfsdjkalfhjksdalfhjksadlryireluhjsdfksljhafjksd",
-    date: "10/28/2015"
+    date: "10/28/2015",
   },
   // {
   //   id: 4,
@@ -55,7 +55,7 @@ const reviews = [
   //   review: "sdfjhsadfsadfsdjkalfhjksdalfhjksadlryireluhjsdfksljhafjksd",
   //   date: "10/28/2015"
   // }
-]
+];
 
 const products = [
   {
@@ -64,15 +64,16 @@ const products = [
     description: "Made from a single piece of sustainably-sourced olive wood",
     price: "$ 99.99",
     name: "Olive Wood Cheese Board",
-    link: "#"
+    link: "#",
   },
   {
     id: 3232454,
     img: "/src/assets/wiskey_smoker.jpg",
-    description: "Elevate your whiskey experience with our sophisticated Whiskey Smoker.",
+    description:
+      "Elevate your whiskey experience with our sophisticated Whiskey Smoker.",
     price: "$ 80.99",
     name: "Wiskey Smoker",
-    link: "#"
+    link: "#",
   },
   {
     id: 3252454,
@@ -80,7 +81,7 @@ const products = [
     description: "Hand-carved from select hardwoods",
     price: "$ 80.99",
     name: "Wood Hammer",
-    link: "#"
+    link: "#",
   },
   // {
   //   id: 3243465478,
@@ -106,12 +107,12 @@ const products = [
   //   price: 9.99,
   //   link: "#"
   // },
+];
 
-
-]
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App reviews={reviews} products={products} />
-  </React.StrictMode>,
-)
+    <BrowserRouter>
+      <App reviews={reviews} products={products} />
+    </BrowserRouter>
+  </React.StrictMode>
+);
