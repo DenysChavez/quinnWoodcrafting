@@ -1,12 +1,12 @@
 import "./Navbar.css";
-import { logo_png, nav_icon } from "../../assets";
+import { logo_png} from "../../assets";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const NavLinks = () => {
+const NavLinks = ({ isOpen }) => {
   return (
     <>
-      <ul className="nav-list">
+      <ul className={`nav-list ${isOpen ? 'open' : ''}`}>
         <li className="colorWhite">
           <Link to="/about">About Us</Link>
         </li>
@@ -34,13 +34,14 @@ const Navbar = () => {
   return (
     <>
       <nav className="wrapper">
-        <div className={`wrapper-inner navbar ${isOpen ? "open" : ""}`}>
-          <div className="nav-list-icon">
-            <img src={nav_icon} alt="" onClick={toggleNavbar} />
+        <div className="wrapper-inner navbar">
+          <div className="nav-menu" onClick={() => setIsOpen(!isOpen)}>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
           <Link to="/" className="logo"> <img className="logo" src={logo_png} alt="Logo" /></Link>
-          
-          {isOpen && <NavLinks />}
+          <NavLinks isOpen={isOpen} />
         </div>
       </nav>
     </>
